@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    background-color: #ececec;;
+}
+.top {
+    border: 1px solid black;
+    height: 20px;
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.content h2 {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.box .topic {
+    font-weight: 600;
+    font-size: 20px;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+.box .left {
+    margin: 0 10px 10px 0;
+}
+.box .left .name {
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.box .left .name span {
+    margin: 0 5px;
+    color: gray;
+}
+.box .left .text {
+    font-size: 18px;
+}
+.box .right {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 80px;
+    width: 100px;
+}
+.article-bottom span {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.article-bottom .tag {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-right: 5px;
+}
